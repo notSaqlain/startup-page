@@ -968,7 +968,7 @@ li.dropdown-list-item {
   fill: var(--text-active);
 }
 
-@-webkit-keyframes blinkH1 {
+@keyframes blinkH1 {
   0% {
     color: #fff;
     text-shadow: 0px 0px 20px #00aad4;
@@ -1011,7 +1011,7 @@ li.dropdown-list-item {
   }
 }
 
-@-webkit-keyframes blinkH1After {
+@keyframes blinkH1After {
   0% {
     color: #00aad4;
   }
@@ -1044,7 +1044,7 @@ li.dropdown-list-item {
   }
 }
 
-@-webkit-keyframes blinkH1Before {
+@keyframes blinkH1Before {
   0% {
     background: #00aad4;
   }
